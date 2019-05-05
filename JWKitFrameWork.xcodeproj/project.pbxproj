@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		708B8C7C227EC952005AB8EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 708B8C7B227EC952005AB8EE /* AppDelegate.m */; };
-		708B8C7F227EC952005AB8EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708B8C7E227EC952005AB8EE /* ViewController.m */; };
 		708B8C82227EC952005AB8EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708B8C80227EC952005AB8EE /* Main.storyboard */; };
 		708B8C84227EC953005AB8EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708B8C83227EC953005AB8EE /* Assets.xcassets */; };
 		708B8C87227EC953005AB8EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708B8C85227EC953005AB8EE /* LaunchScreen.storyboard */; };
 		708B8C8A227EC953005AB8EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 708B8C89227EC953005AB8EE /* main.m */; };
 		708B8C94227EC953005AB8EE /* JWKitFrameWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 708B8C93227EC953005AB8EE /* JWKitFrameWorkTests.m */; };
 		708B8C9F227EC953005AB8EE /* JWKitFrameWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 708B8C9E227EC953005AB8EE /* JWKitFrameWorkUITests.m */; };
+		708B8CB1227ED3DE005AB8EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708B8CAF227ED3DE005AB8EE /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,6 @@
 		708B8C77227EC952005AB8EE /* JWKitFrameWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWKitFrameWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		708B8C7A227EC952005AB8EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		708B8C7B227EC952005AB8EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		708B8C7D227EC952005AB8EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		708B8C7E227EC952005AB8EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		708B8C81227EC952005AB8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		708B8C83227EC953005AB8EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		708B8C86227EC953005AB8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		708B8C9A227EC953005AB8EE /* JWKitFrameWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWKitFrameWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		708B8C9E227EC953005AB8EE /* JWKitFrameWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWKitFrameWorkUITests.m; sourceTree = "<group>"; };
 		708B8CA0227EC953005AB8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708B8CAF227ED3DE005AB8EE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		708B8CB0227ED3DE005AB8EE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		708B8C79227EC952005AB8EE /* JWKitFrameWork */ = {
 			isa = PBXGroup;
 			children = (
-				708B8CAD227ED0EB005AB8EE /* Classes */,
+				708B8CAE227ED3DE005AB8EE /* Classes */,
 				708B8C7A227EC952005AB8EE /* AppDelegate.h */,
 				708B8C7B227EC952005AB8EE /* AppDelegate.m */,
 				708B8C80227EC952005AB8EE /* Main.storyboard */,
@@ -131,14 +131,13 @@
 			path = JWKitFrameWorkUITests;
 			sourceTree = "<group>";
 		};
-		708B8CAD227ED0EB005AB8EE /* Classes */ = {
+		708B8CAE227ED3DE005AB8EE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				708B8C7D227EC952005AB8EE /* ViewController.h */,
-				708B8C7E227EC952005AB8EE /* ViewController.m */,
+				708B8CAF227ED3DE005AB8EE /* ViewController.m */,
+				708B8CB0227ED3DE005AB8EE /* ViewController.h */,
 			);
-			name = Classes;
-			path = "New Group";
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				708B8C7F227EC952005AB8EE /* ViewController.m in Sources */,
+				708B8CB1227ED3DE005AB8EE /* ViewController.m in Sources */,
 				708B8C8A227EC953005AB8EE /* main.m in Sources */,
 				708B8C7C227EC952005AB8EE /* AppDelegate.m in Sources */,
 			);
