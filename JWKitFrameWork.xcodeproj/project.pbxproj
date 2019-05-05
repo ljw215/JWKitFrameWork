@@ -101,11 +101,9 @@
 		708B8C79227EC952005AB8EE /* JWKitFrameWork */ = {
 			isa = PBXGroup;
 			children = (
-				708B8CAC227ECFF5005AB8EE /* Classes */,
+				708B8CAD227ED0EB005AB8EE /* Classes */,
 				708B8C7A227EC952005AB8EE /* AppDelegate.h */,
 				708B8C7B227EC952005AB8EE /* AppDelegate.m */,
-				708B8C7D227EC952005AB8EE /* ViewController.h */,
-				708B8C7E227EC952005AB8EE /* ViewController.m */,
 				708B8C80227EC952005AB8EE /* Main.storyboard */,
 				708B8C83227EC953005AB8EE /* Assets.xcassets */,
 				708B8C85227EC953005AB8EE /* LaunchScreen.storyboard */,
@@ -133,9 +131,11 @@
 			path = JWKitFrameWorkUITests;
 			sourceTree = "<group>";
 		};
-		708B8CAC227ECFF5005AB8EE /* Classes */ = {
+		708B8CAD227ED0EB005AB8EE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				708B8C7D227EC952005AB8EE /* ViewController.h */,
+				708B8C7E227EC952005AB8EE /* ViewController.m */,
 			);
 			name = Classes;
 			path = "New Group";
